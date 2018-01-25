@@ -5,4 +5,4 @@ $ rosrun turtlesim turtlesim_node //入力後新しい端末を開く
 $ rostopic type /turtle1/cmd_vel //入力後新しい端末を開く
 geometry_msgs/Twist
 
-$ rostopic pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, -1.0]'
+$ rostopic pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
